@@ -1,0 +1,127 @@
+DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING
+COURSE SYLLABI – ACADEMIC YEAR 2025-2026
+Anna University Affiliated | Regulation 2021
+
+=======================================================
+COURSE: DATA STRUCTURES (CS3301)
+Semester: III | Credits: 4 (3-0-0-4) | Category: Core
+=======================================================
+
+Prerequisites:
+  - CS3201: Problem Solving and Programming (C Language basics)
+  - MA3251: Statistics and Numerical Methods (basic mathematical thinking)
+  Students must be proficient in: arrays, loops, functions, pointers in C.
+
+Unit I: LINEAR DATA STRUCTURES – LIST (9 Hours)
+  Abstract Data Types (ADT) – List ADT – array-based implementation –
+  Linked list – singly linked list – doubly linked list – circular linked list –
+  applications: polynomial manipulation, sparse matrix representation.
+
+Unit II: LINEAR DATA STRUCTURES – STACKS AND QUEUES (9 Hours)
+  Stack ADT – array and linked list implementations – applications: infix to
+  postfix conversion, balanced parentheses, tower of Hanoi.
+  Queue ADT – circular queue – deque – priority queue – applications: job
+  scheduling, breadth-first search.
+
+Unit III: NON-LINEAR DATA STRUCTURES – TREES (9 Hours)
+  Binary tree – binary search tree (BST) – AVL tree – B-tree – heap –
+  applications: expression tree, Huffman coding. Tree traversals: inorder,
+  preorder, postorder.
+
+Unit IV: NON-LINEAR DATA STRUCTURES – GRAPHS (9 Hours)
+  Graph representations (adjacency matrix, adjacency list) – BFS – DFS –
+  minimum spanning tree: Prim's and Kruskal's algorithms – shortest path:
+  Dijkstra's algorithm – applications: social networks, GPS routing.
+
+Unit V: SORTING AND SEARCHING ALGORITHMS (9 Hours)
+  Sorting: bubble, insertion, selection, merge, quick, heap sort –
+  time and space complexity analysis.
+  Searching: linear search, binary search, hashing – hash functions –
+  collision resolution: chaining, open addressing.
+
+Textbooks:
+  1. Weiss, M.A., "Data Structures and Algorithm Analysis in C", 2nd Ed, Pearson, 2013.
+  2. Goodrich, M.T., "Data Structures and Algorithms in C++", Wiley, 2011.
+
+Total: 45 Hours | ESE: 3 Hours | Internal: 30 marks | ESE: 70 marks
+
+=======================================================
+COURSE: OPERATING SYSTEMS (CS3401)
+Semester: IV | Credits: 4 (3-0-0-4) | Category: Core
+=======================================================
+
+Prerequisites:
+  - CS3301: Data Structures
+  - CS3351: Digital Principles and System Design
+  Students should understand: basic computer organisation, C programming.
+
+Unit I: OVERVIEW OF OPERATING SYSTEMS (9 Hours)
+  Definition and functions of OS – types: batch, interactive, time-sharing,
+  real-time, distributed OS – OS structure: monolithic, layered, microkernel –
+  system calls – OS as resource manager.
+
+Unit II: PROCESS MANAGEMENT (9 Hours)
+  Process concept – process states – Process Control Block (PCB) –
+  process scheduling: FCFS, SJF, Round Robin, Priority scheduling –
+  context switching – inter-process communication (IPC): shared memory,
+  message passing.
+
+Unit III: DEADLOCK AND SYNCHRONISATION (9 Hours)
+  Critical section problem – Peterson's solution – semaphores – mutex –
+  classical problems: producer-consumer, readers-writers, dining philosophers.
+  Deadlock: characterisation, prevention, avoidance (Banker's algorithm),
+  detection, and recovery.
+
+Unit IV: MEMORY MANAGEMENT (9 Hours)
+  Contiguous and non-contiguous allocation – paging – segmentation –
+  virtual memory – demand paging – page replacement algorithms: FIFO, LRU,
+  optimal – thrashing.
+
+Unit V: FILE AND I/O SYSTEMS (9 Hours)
+  File concept – access methods – directory structures – file system mounting –
+  disk scheduling: FCFS, SSTF, SCAN, C-SCAN – RAID levels – I/O hardware
+  and software, device drivers.
+
+Textbooks:
+  1. Silberschatz A., Galvin P.B., Gagne G., "Operating System Concepts", 10th Ed, Wiley, 2018.
+  2. Tanenbaum A.S., "Modern Operating Systems", 4th Ed, Pearson, 2014.
+
+Total: 45 Hours | ESE: 3 Hours | Internal: 30 marks | ESE: 70 marks
+
+=======================================================
+COURSE: DATABASE MANAGEMENT SYSTEMS (CS3492)
+Semester: IV | Credits: 4 (3-0-0-4) | Category: Core
+=======================================================
+
+Prerequisites:
+  - CS3301: Data Structures (understanding of file organisation)
+  Students should be comfortable with: basic set theory, logic.
+
+Unit I: RELATIONAL MODEL AND SQL (9 Hours)
+  Database concepts – ER model – relational model – relational algebra –
+  SQL: DDL, DML, DCL – aggregate functions – nested queries – joins –
+  views – integrity constraints.
+
+Unit II: NORMALISATION (9 Hours)
+  Functional dependencies – Armstrong's axioms – closure – 1NF, 2NF, 3NF,
+  BCNF – lossless decomposition – dependency preservation.
+
+Unit III: TRANSACTIONS AND CONCURRENCY (9 Hours)
+  ACID properties – transaction states – serializability – concurrency control:
+  lock-based, timestamp-based, optimistic – deadlock handling.
+
+Unit IV: DATABASE STORAGE AND INDEXING (9 Hours)
+  Storage organisation – heap files – sequential files –
+  indexing: dense, sparse – B+ tree index – hash-based indexing –
+  query processing and optimisation overview.
+
+Unit V: ADVANCED DATABASES (9 Hours)
+  Distributed databases – NoSQL: document, key-value, column, graph stores –
+  MongoDB basics – big data overview – data warehousing and OLAP –
+  data mining concepts.
+
+Textbooks:
+  1. Ramakrishnan R., Gehrke J., "Database Management Systems", 3rd Ed, McGraw Hill, 2002.
+  2. Korth H.F., Silberschatz A., "Database System Concepts", 7th Ed, McGraw Hill, 2019.
+
+Total: 45 Hours | ESE: 3 Hours | Internal: 30 marks | ESE: 70 marks
